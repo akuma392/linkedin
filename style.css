@@ -329,21 +329,8 @@ h3{
     background: #f4fafe;
     
 }
-.iframe-container{
-    width: 100%;
-    height: 0;
-    position: relative;
-    padding-bottom: 56.25%;
-}
 iframe{
-    border-radius: 0.5rem;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    border-radius:0.5rem ;
 }
 h4{
     font-size: 2.7rem;
@@ -392,7 +379,7 @@ h6 span{
 }
 /* footer */
 .footer{
-    padding: 2rem 0;
+    /* padding: 2rem 0; */
    
 }
 .footer-subheading p{
@@ -448,6 +435,22 @@ footer a:hover{
     .container{
         max-width: 700px;
     } 
+    .iframe-container{
+        width: 100%;
+        height: 0;
+        position: relative;
+        padding-bottom: 56.25%;
+    }
+    iframe{
+        border-radius: 0.5rem;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
 
 }
 @media screen and (max-width:600px){
@@ -483,6 +486,7 @@ footer a:hover{
     .sm-flex{
         display: flex;
         align-items: flex-start;
+        flex-wrap: wrap;
     }
     .sm-margin{
         margin: 1rem 0;
@@ -502,7 +506,27 @@ footer a:hover{
     .people-right-col img{
         width: 80%;
     }
-    footer{
+    .footer{
+        margin: 0 1rem;
+    }
+    .footer-link{
+        padding: 1rem 0;
         height: 5rem;
+    }
+    .iframe-container{
+        width: 100%;
+        height: 0;
+        position: relative;
+        padding-bottom: 56.25%;
+    }
+    iframe{
+        border-radius: 0.5rem;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
     }
 }
